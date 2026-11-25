@@ -1,0 +1,136 @@
+# ============================================================
+# Node / npm
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ============================================================
+# SPFx generated build output
+# ============================================================
+
+lib/
+dist/
+temp/
+release/
+
+# SPFx packaged solutions
+sharepoint/solution/*.sppkg
+
+
+# ============================================================
+# Coverage / test output
+# ============================================================
+
+coverage/
+.nyc_output/
+
+
+# ============================================================
+# Visual Studio Code
+# ============================================================
+
+.vscode/
+
+# Keep shared VS Code configuration if we later decide to use it.
+# In that case remove .vscode/ above and use:
+#
+# .vscode/*
+# !.vscode/extensions.json
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+
+
+# ============================================================
+# Visual Studio / Windows
+# ============================================================
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Temporary / backup files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+
+# ============================================================
+# Secrets / local configuration
+# ============================================================
+
+.env
+.env.*
+*.pfx
+*.p12
+*.cer
+*.key
+*.pem
+
+# Local credentials or developer-only configuration
+secrets/
+credentials/
+
+
+# ============================================================
+# PowerShell temporary/output files
+# ============================================================
+
+*.clixml
+*.transcript
+
+
+# ============================================================
+# OS generated files
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ============================================================
+# IMPORTANT:
+# Do NOT ignore the Classic deployment source/configuration.
+#
+# These SHOULD be committed:
+#
+# src/
+# config/
+# sharepoint/
+# gulpfile.js
+# package.json
+# package-lock.json
+# webpack.classic.js
+# Build-Classic.ps1
+# Install-ESignClassic.ps1
+# signing.png
+# ============================================================
